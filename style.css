@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #9677b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 80vh;
+    width: 45vw;
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 12px;
+    background:url("images/weatherimg.png");
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 20%;
+}
+.search-container input{
+
+    width: 70%;
+    height: 50%;
+    border-radius: 35px;
+    font-size: 1.5rem;
+    border: none;
+    padding-left: 18px;
+
+}
+/* input value{
+    margin-left: 10px;
+} */
+.search-container button{
+    width:12%;
+    height: 48%;
+    border-radius:35px ;
+}
+.search-container button img{
+    padding:0px;
+
+    height: 20px;
+
+}
+.data-container{
+    height:30% ;
+    width: 85%;
+    /* background-color: aqua; */
+    margin: 7% 7% 2% 8%;
+    display: flex;
+    /* gap: 10px; */
+    justify-content: center;
+}
+.humidity{
+  display: flex;
+  width: 50%;
+  height: 30%;
+
+}
+.humidity img{
+    height: 40px;
+    width: 40px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    margin-left: 0px;
+    margin-right: 5px;
+
+}
+.humidity p{
+    margin-top: 50px;
+    margin-bottom: 45px;
+    margin-left: 2px;
+   font-size: 2rem;
+   color: aliceblue;
+}
+
+.air{
+  display: flex;
+  width: 50%;
+  gap: 2px;
+  height: 30%;
+
+}
+.air img{
+    height: 40px;  
+    width: 40px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.air p{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.show-container{
+    height: 40%;
+    width: 60%;
+    margin-top: 0%;
+    margin-left: 22%;
+    
+}
+.show-container img{
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 29%;
+    margin-right: 75%;
+}
+.city{
+    text-align: center;
+}
+.city p{
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin-right: 21%;
+    margin-top: 6%;
+}
+#search-city{
+    font-weight: bold;
+    color: black;
+}
